@@ -1,0 +1,1 @@
+window.BIOSPHERE_CFG={NAME:"BIOSPHERE",TICKER:"BIOSPHERE",CA:"",CHAIN:"solana",PAD:"pumpfun",PAIR:"",X:"",BUY:"",CHART:""};

@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BIOSPHERE — one dome, every coin alive</title>
+<meta name="description" content="BIOSPHERE: a live pixel-art ecosystem in a glass dome where every pump.fun coin is a creature. Buys feed it, sells shrink it, silence starves it. Public market data only, never a wallet.">
+<meta name="theme-color" content="#055059">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<meta property="og:title" content="BIOSPHERE — one dome, every coin alive">
+<meta property="og:description" content="Every coin is a creature in a glass dome. Buys feed it. Sells shrink it. An hour of silence starves it. The biggest one wears the crown.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+@font-face{font-family:"Silkscreen Fallback";src:local("Courier New"),local("Courier");size-adjust:118%;ascent-override:85%;descent-override:20%}
+@font-face{font-family:"JBM Fallback";src:local("Menlo"),local("Consolas"),local("DejaVu Sans Mono"),local("Courier New");size-adjust:96%}
+:root{
+  --teal:#055059;--teal-deep:#03363d;--teal-ink:#021f24;--teal-hi:#216e76;--teal-soft:#136f73;
+  --lime:#abfa25;--lime-hi:#d8ff7a;--lime-lo:#5fb01c;--soil:#093e25;--soil-glow:#298b1d;
+  --base:#0b242f;--glass:#edf9f9;--mist:rgba(237,249,249,.72);--mist2:rgba(237,249,249,.46);--line:rgba(237,249,249,.14);
+  --hd:"Silkscreen","Silkscreen Fallback",monospace;--bd:"JetBrains Mono","JBM Fallback",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html,body{overflow-x:clip}
+html{background:var(--teal);color:var(--glass);scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;font:400 15px/1.55 var(--bd);background:
+  radial-gradient(900px 520px at 50% -120px,rgba(171,250,37,.10),transparent 60%),
+  linear-gradient(180deg,#06575f 0,var(--teal) 420px,#04454d 100%);min-height:100vh}
+[hidden]{display:none!important}
+a{color:var(--lime-hi)}
+:focus-visible{outline:3px solid var(--lime);outline-offset:3px;border-radius:3px}
+.wrap{width:min(1120px,100% - 32px);margin-inline:auto}
+h1,h2,h3{font-family:var(--hd);font-weight:400;letter-spacing:0;margin:0;text-wrap:balance}
+h2{font-size:clamp(20px,2.4vw,28px);line-height:1.2;color:var(--glass)}
+.eyebrow{font-family:var(--hd);font-size:11px;letter-spacing:.08em;color:var(--lime);text-transform:uppercase}
+.muted{color:var(--mist)}
+
+/* nav */
+.nav{display:flex;align-items:center;gap:14px;padding:16px 0;font-size:13px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--hd);color:var(--glass);text-decoration:none;font-size:14px}
+.brand img{width:34px;height:34px;image-rendering:pixelated;border-radius:6px}
+.nav .links{margin-left:auto;display:flex;gap:4px;flex-shrink:0}
+@media(max-width:520px){.nav .pill{display:none}.nav .links a{padding:6px 7px}}
+.nav .links a{color:var(--mist);text-decoration:none;padding:6px 10px;border-radius:6px}
+.nav .links a:hover{color:var(--glass);background:rgba(237,249,249,.08)}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:11px;padding:4px 9px;border:1px solid var(--line);border-radius:999px;color:var(--mist)}
+.pill i{width:7px;height:7px;background:var(--lime);border-radius:50%;box-shadow:0 0 8px var(--lime)}
+@media(prefers-reduced-motion:no-preference){.pill i{animation:pulse 2.4s ease-in-out infinite}}
+@keyframes pulse{50%{opacity:.35}}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1fr;gap:28px;padding:22px 0 40px}
+.hero-copy h1{font-size:clamp(28px,4.6vw,52px);line-height:1.08;color:var(--glass)}
+.hero-copy h1 em{font-style:normal;color:var(--lime)}
+.hero-copy p.lead{font-size:16px;max-width:52ch;color:var(--mist);margin:16px 0 22px}
+.stage{display:grid;grid-template-columns:1fr;gap:16px}
+.dome-card{position:relative;border:1px solid var(--line);border-radius:18px;background:
+  radial-gradient(60% 55% at 50% 60%,rgba(41,139,29,.14),transparent 70%),linear-gradient(180deg,rgba(3,54,61,.75),rgba(2,31,36,.92));
+  padding:14px;box-shadow:0 30px 60px -30px rgba(0,0,0,.6),inset 0 1px 0 rgba(237,249,249,.08)}
+#bs-dome-wrap{display:flex;justify-content:center;align-items:center;width:100%}
+#bs-dome{display:block;image-rendering:pixelated;image-rendering:crisp-edges;touch-action:none;max-width:100%}
+.hud{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;align-items:center;margin-top:10px;font-size:12px;color:var(--mist)}
+.hud b{color:var(--glass);font-weight:600}
+.hud .tag-local{font-size:11px;color:var(--lime-hi);border:1px dashed rgba(171,250,37,.45);padding:3px 8px;border-radius:6px}
+.hud button{font:600 12px var(--bd);background:transparent;color:var(--mist);border:1px solid var(--line);border-radius:6px;padding:4px 9px;cursor:pointer}
+.hud button[aria-pressed="true"]{color:var(--lime);border-color:var(--lime)}
+
+.log-card{border:1px solid var(--line);border-radius:18px;background:rgba(2,31,36,.7);padding:14px 14px 10px;display:flex;flex-direction:column;min-height:220px}
+.log-card h3{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--lime);display:flex;align-items:center;gap:8px}
+.log-card h3 span{margin-left:auto;font-family:var(--bd);font-size:11px;letter-spacing:0;text-transform:none;color:var(--mist2)}
+#bs-log{list-style:none;margin:10px 0 0;padding:0;font-size:12.5px;line-height:1.5;overflow:hidden;max-height:252px}
+#bs-log li{display:flex;gap:10px;padding:3px 0;border-top:1px dashed rgba(237,249,249,.08)}
+#bs-log .lt{color:var(--mist2);flex:0 0 auto;font-variant-numeric:tabular-nums}
+#bs-log .lm{color:var(--mist);min-width:0;flex:1 1 auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#bs-log .lg-fed .lm{color:var(--lime-hi)}
+#bs-log .lg-bled .lm{color:#ff9a9a}
+#bs-log .lg-dead .lm{color:#ffd7a1}
+#bs-log .lg-crown .lm{color:#ffd33d}
+#bs-log .lg-egg .lm{color:var(--glass)}
+#bs-log .lg-sys .lm{color:var(--mist2)}
+@media(prefers-reduced-motion:no-preference){#bs-log li:first-child{animation:slidein .35s ease-out}}
+@keyframes slidein{from{opacity:0;transform:translateY(-6px)}}
+
+/* hatch form */
+.hatch{border:1px solid var(--line);border-radius:14px;background:rgba(2,31,36,.55);padding:14px}
+.hatch label{display:block;font-family:var(--hd);font-size:11px;color:var(--lime);letter-spacing:.06em;margin-bottom:8px}
+.row{display:flex;gap:8px}
+.row input{flex:1 1 auto;min-width:0;font:400 15px var(--bd);color:var(--glass);background:rgba(2,31,36,.85);border:1px solid rgba(237,249,249,.22);border-radius:9px;padding:11px 12px}
+.row input::placeholder{color:var(--mist2)}
+.row input:focus{border-color:var(--lime);outline:none;box-shadow:0 0 0 3px rgba(171,250,37,.22)}
+.btn{font:700 13px var(--hd);background:var(--lime);color:var(--teal-ink);border:0;border-radius:9px;padding:11px 16px;cursor:pointer;white-space:nowrap}
+.btn:hover{background:var(--lime-hi)}
+.btn:disabled{opacity:.55;cursor:wait}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;align-items:center}
+.chips span{font-size:11px;color:var(--mist2);margin-right:2px}
+.chip{font:400 12px var(--bd);color:var(--glass);background:rgba(237,249,249,.08);border:1px solid var(--line);border-radius:999px;padding:5px 11px;cursor:pointer}
+.chip:hover{border-color:var(--lime);color:var(--lime-hi)}
+#bs-status{font-size:12.5px;overflow-wrap:anywhere;color:var(--mist);margin:10px 0 0;min-height:1.4em}
+
+/* result */
+.result{margin-top:12px;border:1px solid rgba(171,250,37,.35);border-radius:14px;background:linear-gradient(180deg,rgba(41,139,29,.14),rgba(2,31,36,.7));padding:14px;display:grid;grid-template-columns:64px 1fr;gap:12px 14px;align-items:start}
+.result canvas{width:64px;height:64px;image-rendering:pixelated;background:rgba(2,31,36,.8);border-radius:10px;border:1px solid var(--line)}
+.r-fate{font-family:var(--hd);font-size:13px;line-height:1.3}
+.r-apex{color:#ffd33d}.r-thriving{color:var(--lime)}.r-starving{color:#ffd7a1}.r-starved{color:#ff9a9a}
+.r-name{font-size:13px;color:var(--glass);margin-top:4px}
+.r-name b{color:var(--lime-hi);font-weight:600}
+.r-line{margin:8px 0 0;color:var(--mist);font-size:14px}
+.r-small{grid-column:1/-1;overflow-wrap:anywhere;font-size:11.5px;color:var(--mist2);line-height:1.6}
+.r-actions{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn-ghost{font:600 12px var(--bd);background:transparent;color:var(--glass);border:1px solid rgba(237,249,249,.3);border-radius:8px;padding:7px 12px;cursor:pointer}
+.btn-ghost:hover{border-color:var(--lime);color:var(--lime-hi)}
+.motion-note{font-size:12px;color:var(--mist2);margin:8px 0 0}
+
+/* sections */
+section{padding:44px 0}
+.sec-head{display:flex;flex-direction:column;gap:6px;margin-bottom:22px}
+.steps{display:grid;grid-template-columns:1fr;gap:12px}
+.step{border:1px solid var(--line);border-radius:14px;padding:18px;background:rgba(2,31,36,.5);position:relative}
+.step .n{font-family:var(--hd);font-size:28px;color:var(--lime);line-height:1}
+.step h3{font-size:15px;margin:10px 0 6px;color:var(--glass)}
+.step p{margin:0;color:var(--mist);font-size:14px}
+.species{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
+.sp{border:1px solid var(--line);border-radius:14px;padding:16px;background:rgba(2,31,36,.5);display:flex;flex-direction:column;gap:8px}
+.sp canvas{width:72px;height:72px;image-rendering:pixelated;background:radial-gradient(circle at 50% 70%,rgba(41,139,29,.25),rgba(2,31,36,.9) 70%);border-radius:12px;border:1px solid var(--line)}
+.sp h3{font-size:14px;color:var(--glass)}
+.sp .role{font-size:13px;color:var(--mist);margin:0}
+.sp .say{font-size:12px;color:var(--lime-hi);margin:0;font-style:italic}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{text-align:left;padding:11px 10px;border-top:1px solid var(--line);vertical-align:top}
+th{font-family:var(--hd);font-weight:400;font-size:11px;color:var(--lime);letter-spacing:.06em;text-transform:uppercase}
+td:first-child{color:var(--glass);white-space:nowrap}
+td{color:var(--mist)}
+tr:last-child td{border-bottom:1px solid var(--line)}
+@media(max-width:560px){td:first-child{white-space:normal}th,td{padding:10px 6px}}
+
+/* footer */
+footer{padding:36px 0 44px;border-top:1px solid var(--line);font-size:13px;color:var(--mist)}
+.ca{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:18px}
+.ca code{font-family:var(--bd);font-size:12px;background:rgba(2,31,36,.8);border:1px solid var(--line);padding:8px 10px;border-radius:8px;word-break:break-all;color:var(--glass)}
+.flinks{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.flinks a{font:700 12px var(--hd);text-decoration:none;color:var(--teal-ink);background:var(--lime);padding:9px 14px;border-radius:8px}
+.flinks a.off{background:rgba(237,249,249,.12);color:var(--mist2);cursor:not-allowed}
+.fmeta{display:flex;gap:10px 18px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+.fmeta .clock{font-variant-numeric:tabular-nums;color:var(--glass)}
+.nfa{max-width:68ch;font-size:12px;color:var(--mist2);margin:10px 0 0}
+
+@media(min-width:900px){
+  .hero{grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);align-items:start;padding-top:36px}
+  .steps{grid-template-columns:repeat(3,1fr)}
+  .log-card{min-height:0}
+}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <nav class="nav" aria-label="main">
+    <a class="brand" href="#top"><img src="data:image/png;base64,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" alt="" width="34" height="34">BIOSPHERE</a>
+    <span class="pill"><i aria-hidden="true"></i>dome running</span>
+    <div class="links">
+      <a href="#how">how</a><a href="#species">species</a><a href="#rules">rules</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+<section class="wrap hero" aria-labelledby="h1">
+  <div class="hero-copy">
+    <div class="eyebrow">$BIOSPHERE · pump.fun</div>
+    <h1 id="h1" style="margin-top:12px">one dome.<br><em>every coin alive.</em></h1>
+    <p class="lead">Every pump.fun coin hatches as a creature in a glass dome. Buys feed it, sells make it bleed, an hour of silence starves it, and the biggest one each hour wears the crown.</p>
+
+    <form class="hatch" id="bs-form" autocomplete="off">
+      <label for="bs-input">drop a coin into the dome</label>
+      <div class="row">
+        <input id="bs-input" name="coin" type="text" placeholder="paste a coin / CA / ticker" maxlength="120" spellcheck="false" aria-describedby="bs-status">
+        <button class="btn" id="bs-go" type="submit">hatch</button>
+      </div>
+      <div class="chips" role="group" aria-label="examples">
+        <span>try:</span>
+        <button type="button" class="chip" data-v="MOSS">MOSS</button>
+        <button type="button" class="chip" data-v="$PIP">$PIP</button>
+        <button type="button" class="chip" data-v="6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN">a CA</button>
+      </div>
+      <p id="bs-status" aria-live="polite"></p>
+      <p class="motion-note" id="bs-motion" hidden>reduced motion is on: the dome is a still frame and results show instantly.</p>
+    </form>
+
+    <div class="result" id="bs-result" hidden aria-live="polite">
+      <canvas id="bs-r-sprite" width="48" height="48" aria-hidden="true"></canvas>
+      <div>
+        <div class="r-fate" id="bs-r-fate"></div>
+        <div class="r-name"><b id="bs-r-tag"></b> · <span id="bs-r-name"></span></div>
+        <p class="r-line" id="bs-r-line"></p>
+      </div>
+      <div class="r-small"><span id="bs-r-stats"></span><br><span id="bs-r-traits"></span></div>
+      <div class="r-actions">
+        <button type="button" class="btn-ghost" id="bs-copy">copy summary</button>
+        <span class="muted" style="font-size:11.5px">simulated day · same input always hatches the same creature</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="stage">
+    <div class="dome-card">
+      <div id="bs-dome-wrap"><canvas id="bs-dome" width="450" height="450" role="img" aria-label="Pixel-art glass dome with small creatures grazing on glowing soil"></canvas></div>
+      <div class="hud" id="bs-hud">
+        <span><b id="bs-hud-alive">0</b> alive · apex <b id="bs-hud-apex">—</b> · <span id="bs-hud-cycle">day</span></span>
+        <span class="tag-local">sample ecosystem, built locally, nothing fetched</span>
+        <button type="button" id="bs-sound" aria-pressed="false">sound: off</button>
+      </div>
+    </div>
+    <aside class="log-card" aria-label="ecosystem log">
+      <h3>ecosystem log <span>UTC</span></h3>
+      <ul id="bs-log"></ul>
+    </aside>
+  </div>
+</section>
+
+<section class="wrap" id="how" aria-labelledby="how-h">
+  <div class="sec-head">
+    <div class="eyebrow">how the dome works</div>
+    <h2 id="how-h">three rules. no referee.</h2>
+  </div>
+  <div class="steps">
+    <div class="step"><div class="n">01</div><h3>hatch</h3><p>A coin's address seeds its creature: species, colour, appetite and stamina all come from the hash. Same coin, same creature, every time.</p></div>
+    <div class="step"><div class="n">02</div><h3>feed or starve</h3><p>Every buy is food and the creature grows. Every sell makes it bleed and shrink. Sixty minutes with no trade and it starves, leaving a sprout in the soil.</p></div>
+    <div class="step"><div class="n">03</div><h3>crown</h3><p>Once an hour the dome measures everything alive. The biggest creature is apex and wears the crown until something out-eats it.</p></div>
+  </div>
+</section>
+
+<section class="wrap" id="species" aria-labelledby="sp-h">
+  <div class="sec-head">
+    <div class="eyebrow">the food chain</div>
+    <h2 id="sp-h">five species. one soil.</h2>
+    <p class="muted" style="margin:0;max-width:60ch">Which one a coin hatches as is decided by its address, not by how it trades. Trading only decides how big it gets.</p>
+  </div>
+  <div class="species">
+    <div class="sp"><canvas data-species="mossling" width="48" height="48" aria-hidden="true"></canvas><h3>Mossling</h3><p class="role">Slow, round, lives on the soil. The steady grazer: small buys, all day.</p><p class="say">"never fast. never hungry."</p></div>
+    <div class="sp"><canvas data-species="pip" width="48" height="48" aria-hidden="true"></canvas><h3>Pip</h3><p class="role">The hatchling. Tiny, loud, moves a lot. Most coins arrive as a Pip and most Pips don't see the crown.</p><p class="say">"just hatched, already hungry."</p></div>
+    <div class="sp"><canvas data-species="snail" width="48" height="48" aria-hidden="true"></canvas><h3>Snail</h3><p class="role">Carries its shell. Bleeds slowly, starves slowly. The holder's creature.</p><p class="say">"an hour is nothing."</p></div>
+    <div class="sp"><canvas data-species="jelly" width="48" height="48" aria-hidden="true"></canvas><h3>Jelly</h3><p class="role">Floats above the soil. Balloons on a feed, deflates on a bleed. Pure volatility.</p><p class="say">"up is the only direction i know."</p></div>
+    <div class="sp"><canvas data-species="beetle" width="48" height="48" aria-hidden="true"></canvas><h3>Beetle</h3><p class="role">Armoured and quick. Eats whatever is dropped first. Lives on volume, dies without it.</p><p class="say">"first to the food."</p></div>
+  </div>
+</section>
+
+<section class="wrap" id="rules" aria-labelledby="rules-h">
+  <div class="sec-head">
+    <div class="eyebrow">rules &amp; limits</div>
+    <h2 id="rules-h">what the dome is. what it isn't.</h2>
+  </div>
+  <table>
+    <thead><tr><th scope="col">rule</th><th scope="col">plainly</th></tr></thead>
+    <tbody>
+      <tr><td>public data only</td><td>The dome reads public trade feeds and nothing else. It never asks for a wallet, a signature or a key.</td></tr>
+      <tr><td>this page is a sample</td><td>Everything you see here is generated in your browser from a hash of what you type. No network calls. It is a toy ecosystem, not live market data.</td></tr>
+      <tr><td>no custody</td><td>BIOSPHERE never holds, moves or touches funds. Creatures are pixels, not positions.</td></tr>
+      <tr><td>no promises</td><td>No stats, returns or performance claims are made or implied. A fat creature is a picture of past trades, nothing more.</td></tr>
+      <tr><td>not financial advice</td><td>Nothing here is a recommendation to buy or sell anything. Do your own research.</td></tr>
+    </tbody>
+  </table>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="ca" id="bs-ca" hidden><span class="eyebrow">CA</span><code id="bs-ca-text"></code><button type="button" class="btn-ghost" id="bs-ca-copy">copy</button></div>
+    <div class="flinks">
+      <a id="bs-buy">buy on pump.fun</a>
+      <a id="bs-chart">chart</a>
+      <a id="bs-x">x / twitter</a>
+    </div>
+    <div class="fmeta">
+      <span>$BIOSPHERE · one dome, every coin alive</span>
+      <span class="clock" id="bs-clock">--:--:-- UTC</span>
+    </div>
+    <p class="nfa">Not financial advice. BIOSPHERE is a pixel-art ecosystem that reads public market data. It never holds funds and makes no promises about anything. Sample on this page is generated locally and fetches nothing.</p>
+  </div>
+</footer>
+<script src="config.js"></script>
+<script>(function(){"use strict";var $=window.BIOSPHERE_CFG||{},c=function(e){return document.getElementById(e)},A=!1;try{A=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}function Ae(e){for(var t=1779033703^e.length,a=0;a<e.length;a++)t=Math.imul(t^e.charCodeAt(a),3432918353),t=t<<13|t>>>19;return function(){return t=Math.imul(t^t>>>16,2246822507),t=Math.imul(t^t>>>13,3266489909),(t^=t>>>16)>>>0}}function le(e){return function(){e|=0,e=e+1831565813|0;var t=Math.imul(e^e>>>15,1|e);return t=t+Math.imul(t^t>>>7,61|t)^t,((t^t>>>14)>>>0)/4294967296}}var k=le((Date.now()&4294967295)>>>0);function M(e,t,a){return t+e()*(a-t)}function ee(e,t){return t[Math.floor(e()*t.length)]}var d={teal:"#055059",tealDeep:"#03363d",lime:"#abfa25",limeHi:"#d8ff7a",limeLo:"#5fb01c",soil:"#093e25",soilGlow:"#298b1d",base:"#0b242f",baseHi:"#136f73",glass:"#edf9f9",glassTint:"#216e76",night:"#032a30",day:"#0a6a70"},J=[{id:"mossling",name:"Mossling",hue:[95,140],floats:!1,speed:.12,sprite:["..####..",".#++##.#","#E#####.","#E######",".######.","..#-#-.."]},{id:"pip",name:"Pip",hue:[38,60],floats:!1,speed:.3,sprite:["..+##...",".#E##+..","-####...",".####..#","..##.##.","..-.-..."]},{id:"snail",name:"Snail",hue:[170,200],floats:!1,speed:.05,sprite:["...####.","..#++-#.","E.#-#+#.","##+####.","########",".-----.."]},{id:"jelly",name:"Jelly",hue:[270,320],floats:!0,speed:.2,sprite:["..####..",".#++###.","#E#####.","########",".#.#.#.#",".#.#.#.#"]},{id:"beetle",name:"Beetle",hue:[5,30],floats:!1,speed:.4,sprite:[".-.##.-.","..E##+..",".######.","-##+###-",".######.",".-.--.-."]}],Le=["mo","pi","lu","ta","ke","no","ri","su","fe","bo","wi","za","el","um","ki","da"];function D(e,t,a){return"hsl("+e+","+t+"%,"+a+"%)"}var L=150,I=150,s={cx:75,cy:70,r:61},v={y:106,cx:75,rx:52,ry:10},f={t:0,creatures:[],fossils:[],spores:[],eggs:[],log:[],frame:0,nextTrade:2,hatchCount:0},O={x:null,y:null},R,E,K,G,h,z=1,W=1,N=!1,F=0,te=0,Q=!0,Z=!0;function ae(e,t,a){a=a||{};for(var r=a.species||ee(e,J),n=Math.round(M(e,r.hue[0],r.hue[1])),o=a.size!=null?a.size:M(e,.7,1.9),i="",p=2+Math.floor(e()*2),g=0;g<p;g++)i+=ee(e,Le);i=i.charAt(0).toUpperCase()+i.slice(1);var w=a.slot!=null?a.slot:e();return{tag:t,name:i,sp:r,hue:n,size:o,vis:o,x:s.cx+(w-.5)*2*(v.rx-8),y:r.floats?s.cy-12:v.y-4,vx:0,vy:0,dir:e()<.5?-1:1,food:M(e,.4,1),state:"wander",st:0,blink:M(e,1,5),pop:0,hurt:0,bob:e()*6.28,lastFed:0,dead:!1,lane:a.lane!=null?a.lane:e()<.5?0:1,traits:a.traits||null,user:!!a.user}}function Te(){for(var e=k,t=["MOSS","PIP","LUNA","ROCK","FERN","DEW","NOVA","BUG","ELM","ZEN"],a=8+Math.floor(e()*2),r=J.slice().sort(function(){return e()-.5}),n=0;n<a;n++)f.creatures.push(ae(e,t[n],{slot:(n+.5)/a,lane:n%2,species:r[n%J.length]}));for(var o=0;o<14;o++)f.spores.push({x:M(e,s.cx-45,s.cx+45),y:M(e,s.cy-40,v.y),p:e()*6.28,s:M(e,.3,.8)});f.fossils.push({x:s.cx-30,tag:"OLD"}),f.creatures.sort(function(i,p){return p.size-i.size}),S("dome sealed. "+a+" creatures inside.","sys"),S(f.creatures[0].tag+" is apex","crown")}function re(){for(var e=null,t=0;t<f.creatures.length;t++){var a=f.creatures[t];!a.dead&&(!e||a.size>e.size)&&(e=a)}return e}function S(e,t){if(f.log.unshift({msg:e,kind:t||"info",t:Date.now()}),f.log.length>40&&f.log.pop(),!!R){var a=document.createElement("li");a.className="lg-"+(t||"info");var r=new Date,n=String(r.getUTCHours()).padStart(2,"0")+":"+String(r.getUTCMinutes()).padStart(2,"0")+":"+String(r.getUTCSeconds()).padStart(2,"0");for(a.innerHTML='<span class="lt">'+n+'</span><span class="lm"></span>',a.querySelector(".lm").textContent=e,R.insertBefore(a,R.firstChild);R.children.length>14;)R.removeChild(R.lastChild)}}function fe(e,t){e.size=Math.min(3.2,e.size+t/100),e.food=Math.min(1.4,e.food+t/60),e.pop=.5,e.lastFed=f.t,S(e.tag+" fed +"+t,"fed")}function ue(e,t){e.size=Math.max(.5,e.size-t/100),e.food=Math.max(0,e.food-t/80),e.hurt=.5,S(e.tag+" bled -"+t,"bled")}function de(e){e.dead=!0,f.fossils.push({x:Math.max(s.cx-40,Math.min(s.cx+40,e.x)),tag:e.tag}),S(e.tag+" starved. sprout left in the soil","dead")}function he(){for(var e=k,t="",a="ABCDEFGHJKLMNPQRSTUVWXYZ",r=0;r<3+Math.floor(e()*2);r++)t+=a.charAt(Math.floor(e()*a.length));f.eggs.push({x:M(e,s.cx-32,s.cx+32),y:s.cy-s.r+6,vy:0,tag:t,t:0,user:!1,seed:e}),S("new egg dropped: "+t,"egg")}function ze(e){if(f.nextTrade-=e,!(f.nextTrade>0)){f.nextTrade=M(k,1.4,3.6);var t=f.creatures.filter(function(i){return!i.dead});if(t.length){var a=ee(k,t),r=k();if(r<.5)fe(a,Math.round(M(k,3,24)));else if(r<.86)ue(a,Math.round(M(k,2,16)));else if(r<.94&&t.length<10)he();else if(t.length>9){var n=t.slice().sort(function(i,p){return i.food-p.food})[0];n&&!n.user&&n.food<.3&&de(n)}var o=re();o&&o!==f.lastApex&&(f.lastApex=o,f.t>2&&S(o.tag+" takes the crown","crown"))}}}function ne(e){return e>=2.1?3:e>=1.05?2:1}function ie(e,t,a){var r=e-s.cx,n=t-s.cy;return Math.sqrt(r*r+n*n)<s.r-a}function He(e,t){if(!e.dead){if(e.st-=t,e.blink-=t,e.blink<-.15&&(e.blink=M(k,2,6)),e.pop>0&&(e.pop-=t),e.hurt>0&&(e.hurt-=t),e.vis+=(e.size-e.vis)*Math.min(1,t*4),e.food-=t*.012,e.st<=0){e.st=M(k,1,4);var a=k();e.state=a<.45?"wander":a<.75?"graze":"idle",e.state==="wander"&&(e.dir=k()<.5?-1:1)}var r=e.sp.speed*10,n=ne(e.vis),o=4*n;if(e.state==="wander"){var i=e.x+e.dir*r*t,p=e.sp.floats?s.cy-10:v.y-4;ie(i+e.dir*o,e.sp.floats?e.y:p,6)&&Math.abs(i-v.cx)<(e.sp.floats?s.r-24:v.rx-6)?e.x=i:e.dir*=-1}if(e.sp.floats){e.bob+=t*2;var g=s.cy-14+Math.sin(e.bob)*7;e.y+=(g-e.y)*t}else{e.bob+=t*(e.state==="graze"?6:3);var w=v.y-4+Math.round(Math.abs(e.x-v.cx)/v.rx*3)-(e.lane?6:0);e.y=w}for(var m=0;m<f.creatures.length;m++){var x=f.creatures[m];if(!(x===e||x.dead||x.sp.floats!==e.sp.floats||!e.sp.floats&&x.lane!==e.lane)){var b=e.x-x.x,C=o+4*ne(x.vis)+5;Math.abs(b)<C&&(e.x+=(b>=0?1:-1)*Math.min(1,(C-Math.abs(b))*t*6))}}var u=e.sp.floats?s.r-24:v.rx-6;Math.abs(e.x-v.cx)>u&&(e.x=v.cx+Math.sign(e.x-v.cx)*u),ie(e.x,e.y-o,4)||(e.x+=(s.cx-e.x)*t*2)}}function Ie(e,t){if(e.t+=t,e.phase==="crack"){e.ct-=t,e.ct<=0&&ce(e);return}e.vy+=60*t,e.y+=e.vy*t;var a=v.y-6;e.y>=a&&(e.y=a,Math.abs(e.vy)>14?e.vy=-e.vy*.4:(e.vy=0,e.phase="crack",e.ct=A?0:1.1))}function ce(e){f.eggs.splice(f.eggs.indexOf(e),1);var t=e.creature||ae(e.seed,e.tag);t.x=e.x,t.y=v.y-4,t.pop=.6,t.vis=.3,t.lane=0,f.creatures.push(t),S("new hatchling: "+t.tag+" ("+t.name+" the "+t.sp.name+")","egg"),e.onHatch&&e.onHatch(t)}function l(e,t,a,r,n){h.fillStyle=n,h.fillRect(Math.round(e),Math.round(t),a,r)}var Oe={A:11245,B:27566,C:14627,D:27502,E:31143,F:31140,G:14699,H:23533,I:29847,J:4714,K:23469,L:18727,M:24557,N:27501,O:11114,P:27556,Q:11131,R:27565,S:14478,T:29842,U:23407,V:23402,W:23549,X:23213,Y:23186,Z:29351,0:31599,1:11415,2:25255,3:25230,4:23497,5:31118,6:14762,7:29330,8:10922,9:10958,$:15518,"-":448};function ge(e,t,a,r){e=String(e).toUpperCase();for(var n=e.length*4-1,o=Math.round(t-n/2),i=0;i<e.length;i++){var p=Oe[e.charAt(i)];if(p==null){o+=4;continue}for(var g=0;g<15;g++)p&1<<14-g&&l(o+g%3,a+Math.floor(g/3),1,1,r);o+=4}}function Re(e){for(var t=ne(e.vis),a=e.sp.sprite,r=t,n=a[0].length*r,o=a.length*r,i=e.pop>0?1:0,p=Math.round(e.x-n/2),g=Math.round(e.y-o+(e.state==="graze"&&!e.sp.floats?Math.round(Math.sin(e.bob)+1):0)),w=e.hurt>0?38:58,m=70,x=D(e.hue,m,w),b=D(e.hue,m,w+18),C=D(e.hue,m,w-20),u=null,y=0;y<a.length;y++)for(var T=0;T<a[y].length;T++){var Y=a[y].charAt(T),$e=e.dir<0?T:a[y].length-1-T,V=p+$e*r,q=g+y*r-i;Y==="#"?l(V,q,r,r,x):Y==="+"?l(V,q,r,r,b):Y==="-"?l(V,q,r,r,C):Y==="E"&&(l(V,q,r,r,x),u={x:V,y:q})}if(u){var H=Math.max(1,r);if(e.blink<0)l(u.x,u.y+Math.floor(H/2),H,1,C);else{l(u.x,u.y,H,H,"#fff");var Ee=0,oe=0;if(O.x!=null&&!A){var ke=O.x-e.x,Se=O.y-e.y;Ee=Math.abs(ke)>10?ke>0?1:-1:0,oe=Math.abs(Se)>10?Se>0?1:-1:0,H<2&&(oe=0)}var B=Math.max(1,Math.floor(H/2));l(u.x+(H-B)/2+Ee*Math.max(0,(H-B)/2),u.y+(H-B)/2+oe*Math.max(0,(H-B)/2),B,B,d.base)}}return e.pop>.3&&(l(p+n,g-2,1,1,d.limeHi),l(p-2,g+2,1,1,d.limeHi)),e.hurt>.3&&l(p+n/2,g-3,1,1,"#ff6b6b"),ge(e.tag,e.x,g-7,e.user?d.limeHi:d.glass),{ox:p,oy:g,w:n,h:o}}function Ue(e,t){var a=Math.round(e.x)-3,r=t.oy-13;l(a,r+2,7,2,"#ffd33d"),l(a,r,1,2,"#ffd33d"),l(a+3,r-1,1,3,"#ffd33d"),l(a+6,r,1,2,"#ffd33d"),l(a+3,r+2,1,1,"#ff5c8a")}function De(e){var t=Math.round(e.x),a=Math.round(e.y),r=e.user?d.limeHi:d.glass;l(t-2,a-7,4,1,r),l(t-3,a-6,6,5,r),l(t-2,a-1,4,1,r),l(t-2,a-6,1,2,"#fff"),e.phase==="crack"&&(l(t,a-6,1,2,d.base),l(t-1,a-4,1,1,d.base),l(t,a-3,1,2,d.base),e.ct<.5&&(l(t-4,a-8,1,1,d.limeHi),l(t+4,a-9,1,1,d.limeHi))),ge(e.tag,t,a-15,r)}function Ne(e){var t=Math.round(e.x),a=v.y-2+Math.round(Math.abs(t-v.cx)/v.rx*3);l(t,a-4,1,4,d.limeLo),l(t-2,a-5,2,1,d.limeLo),l(t+1,a-6,2,1,d.limeLo),l(t-1,a-1,3,1,d.soilGlow)}function _(){var e=f.t,t=(Math.sin(e/20)+1)/2;h.clearRect(0,0,L,I),l(s.cx-30,130,60,8,d.base),l(s.cx-36,126,72,6,d.base),l(s.cx-26,129,52,2,d.baseHi),l(s.cx-32,137,64,4,d.base),l(s.cx-24,134,48,2,d.tealDeep),h.save(),h.beginPath(),h.arc(s.cx,s.cy,s.r,0,6.2832),h.clip();var a=h.createLinearGradient(0,s.cy-s.r,0,v.y);if(a.addColorStop(0,ve(d.night,d.day,t*.7+.15)),a.addColorStop(1,ve(d.night,d.day,t*.35)),h.fillStyle=a,h.fillRect(0,0,L,I),t<.45){h.globalAlpha=(.45-t)*2;for(var r=0;r<12;r++)l(s.cx-45+r*37%90,s.cy-52+r*23%42,1,1,d.glass);h.globalAlpha=1}h.globalAlpha=.25+t*.1,h.fillStyle=d.soilGlow,h.beginPath(),h.ellipse(v.cx,v.y+2,v.rx+8,22,0,0,6.2832),h.fill(),h.globalAlpha=1;for(var n=-v.rx;n<=v.rx;n++){var o=Math.round(Math.sqrt(1-n*n/(v.rx*v.rx))*v.ry);l(v.cx+n,v.y-o+8,1,o+20,d.soil),l(v.cx+n,v.y-o+8,1,1,d.soilGlow)}for(var i=0;i<18;i++){var p=v.cx-40+i*29%80,g=v.y+9+i*13%12,w=(Math.sin(e*2+i)+1)/2;l(p,g,1+i%2,1,w>.5?d.lime:d.soilGlow)}f.fossils.forEach(Ne),f.spores.forEach(function(u){var y=.4+.4*Math.sin(u.p);h.globalAlpha=y,l(u.x,u.y,1,1,d.limeHi)}),h.globalAlpha=1,f.eggs.forEach(De);var m=re(),x=f.creatures.filter(function(u){return!u.dead}).sort(function(u,y){return u.y-y.y});x.forEach(function(u){var y=Re(u);u===m&&x.length>1&&Ue(u,y)}),h.restore(),h.strokeStyle=d.glass,h.lineWidth=2,h.beginPath(),h.arc(s.cx,s.cy,s.r-1,0,6.2832),h.stroke(),h.strokeStyle=d.glassTint,h.lineWidth=1,h.globalAlpha=.6,h.beginPath(),h.arc(s.cx,s.cy,s.r-3,0,6.2832),h.stroke(),h.globalAlpha=1,l(s.cx-40,s.cy-36,2,2,d.glass),l(s.cx-38,s.cy-40,2,2,d.glass),l(s.cx-36,s.cy-44,3,2,d.glass),l(s.cx-32,s.cy-47,3,2,d.glass),l(s.cx-28,s.cy-49,4,2,d.glass),l(s.cx-44,s.cy-30,2,3,d.glass),t>.5?l(s.cx+40,s.cy-42,3,3,d.limeHi):(l(s.cx+40,s.cy-42,3,3,d.glass),l(s.cx+41,s.cy-42,2,2,d.night)),K.clearRect(0,0,E.width,E.height),K.drawImage(G,0,0,L,I,0,0,L*z,I*z);var b=c("bs-hud");if(b&&f.frame%20===0){var C=f.creatures.filter(function(u){return!u.dead}).length;c("bs-hud-alive").textContent=C,c("bs-hud-apex").textContent=m?m.tag:"\u2014",c("bs-hud-cycle").textContent=t>.5?"day":"night"}}function ve(e,t,a){var r=parseInt(e.slice(1),16),n=parseInt(t.slice(1),16),o=Math.round((r>>16&255)*(1-a)+(n>>16&255)*a),i=Math.round((r>>8&255)*(1-a)+(n>>8&255)*a),p=Math.round((r&255)*(1-a)+(n&255)*a);return"rgb("+o+","+i+","+p+")"}function Fe(e){f.t+=e,f.frame++,ze(e),f.creatures.forEach(function(a){He(a,e)}),f.eggs.slice().forEach(function(a){Ie(a,e)}),f.spores.forEach(function(a){a.p+=e,a.y-=e*2*a.s,a.x+=Math.sin(a.p)*e*3,(a.y<s.cy-s.r+10||!ie(a.x,a.y,4))&&(a.y=v.y-2,a.x=M(k,s.cx-32,s.cx+32))});var t=f.creatures.filter(function(a){return!a.dead});t.length<8&&f.eggs.length===0&&k()<e*.5&&he(),f.fossils.length>6&&f.fossils.shift(),f.creatures=f.creatures.filter(function(a){return!a.dead})}function pe(e){if(F=0,!!N){var t=Math.min(.05,(e-te)/1e3||.016);te=e,Fe(t),_(),!A&&Q&&Z?F=requestAnimationFrame(pe):N=!1}}function j(){N||A||!Q||!Z||(N=!0,te=performance.now(),F=requestAnimationFrame(pe))}function xe(){N=!1,F&&cancelAnimationFrame(F),F=0}function me(){var e=c("bs-dome-wrap"),t=Math.max(180,Math.floor(e.clientWidth));W=Math.min(2,Math.max(1,Math.floor(window.devicePixelRatio||1))),z=Math.max(1,Math.floor(t*W/L)),z/W*L>t&&(z=Math.max(1,z-1)),E.width=L*z,E.height=I*z,E.style.width=L*z/W+"px",E.style.height=I*z/W+"px",K=E.getContext("2d"),K.imageSmoothingEnabled=!1,(A||!N)&&_()}function Pe(e){var t=e.trim();if(!t)return null;var a=t.replace(/^\$/,"");if(/^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(a))return{tag:a.slice(0,4).toUpperCase(),kind:"CA",raw:a};if(/^https?:\/\//i.test(a)){var r=a.match(/\/([1-9A-HJ-NP-Za-km-z]{32,44})(?:[/?#]|$)/);if(r)return{tag:r[1].slice(0,4).toUpperCase(),kind:"link",raw:r[1]};var n=a.replace(/[/?#].*$/,"").split("/").pop();return{tag:(n||"LINK").replace(/[^a-z0-9]/gi,"").slice(0,5).toUpperCase()||"LINK",kind:"link",raw:a}}return{tag:a.replace(/[^a-z0-9]/gi,"").slice(0,6).toUpperCase()||"COIN",kind:"ticker",raw:a}}var se=!1;function be(e){if(!se){var t=Pe(e),a=c("bs-status");if(!t){a.textContent="type a ticker, a coin name or a CA first.",c("bs-input").focus();return}se=!0,c("bs-go").disabled=!0,c("bs-result").hidden=!0,a.textContent="egg dropping for "+t.tag+"\u2026";var r=Ae(t.raw.toLowerCase()),n=le(r()),o={appetite:M(n,.3,1),stamina:M(n,.3,1),luck:n()},i=M(n,.7,1.6),p=ae(n,t.tag,{size:i,traits:o,user:!0});f.creatures.forEach(function(u){u.user&&(u.user=!1)}),f.creatures=f.creatures.filter(function(u){return u.tag!==t.tag}),f.eggs=f.eggs.filter(function(u){return u.tag!==t.tag});for(var g=[],w=o.luck*.5+o.appetite*.3-(1-o.stamina)*.2,m=0;m<14;m++){var x=n();x<.42+w*.4?g.push({k:"buy",amt:Math.round(M(n,4,26)*(.6+o.appetite))}):x<.9?g.push({k:"sell",amt:Math.round(M(n,3,20)*(1.3-o.stamina))}):g.push({k:"quiet"})}var b={x:s.cx+M(n,-26,26),y:s.cy-s.r+6,vy:0,tag:t.tag,t:0,user:!0,seed:n,creature:p,onHatch:function(u){Be(u,g,t,o)}};if(f.eggs.push(b),S("egg dropped: "+t.tag+" (from "+t.kind+")","egg"),A)b.y=v.y-6,b.phase="crack",b.ct=0,ce(b),_();else{j();try{var C=E.getBoundingClientRect();(C.top<0||C.bottom>window.innerHeight)&&E.scrollIntoView({behavior:"smooth",block:"center"})}catch(u){}}}}function Be(e,t,a,r){var n=c("bs-status"),o=0,i=0,p=0,g=0,w=0,m=0,x=0,b=e.size;function C(){var y=re(),T;e.dead?T="starved":y===e?T="apex":e.food>.45&&e.size>=b*.8?T="thriving":T="starving",Ge(e,T,a,r,{buys:m,sells:x,fed:g,bled:w,maxQuiet:p}),se=!1,c("bs-go").disabled=!1}function u(){if(o>=t.length){n.textContent="day over.",C();return}var y=t[o++];if(y.k==="buy"?(fe(e,y.amt),m++,g+=y.amt,i=0,b=Math.max(b,e.size),n.textContent=a.tag+" fed +"+y.amt):y.k==="sell"?(ue(e,y.amt),x++,w+=y.amt,i=0,n.textContent=a.tag+" bled -"+y.amt):(i++,p=Math.max(p,i),e.food-=.22,n.textContent="no trades for "+a.tag+"\u2026 ("+i+"h)",S(a.tag+": quiet hour "+i,"info")),e.food<=0&&!e.dead){de(e),n.textContent=a.tag+" starved.",C();return}A?u():setTimeout(u,420)}A?u():setTimeout(u,500)}var ye="";function Ge(e,t,a,r,n){var o=c("bs-result"),i={apex:"APEX \u2014 wears the crown",thriving:"THRIVING",starving:"STARVING",starved:"STARVED \u2014 fossil sprout left"},p={apex:a.tag+" out-ate everything in the dome and took the crown.",thriving:a.tag+" got fed more than it bled. Fat, calm, grazing.",starving:a.tag+" is still alive but shrinking. One more quiet hour and it is soil.",starved:a.tag+" went too long without food. A sprout marks the spot."};c("bs-r-fate").textContent=i[t],c("bs-r-fate").className="r-fate r-"+t,c("bs-r-name").textContent=e.name+" the "+e.sp.name,c("bs-r-tag").textContent="$"+a.tag,c("bs-r-line").textContent=p[t],c("bs-r-stats").textContent=n.buys+" feeds (+"+n.fed+") \xB7 "+n.sells+" bleeds (\u2212"+n.bled+") \xB7 longest quiet "+n.maxQuiet+"h \xB7 size "+e.size.toFixed(1)+"x",c("bs-r-traits").textContent="appetite "+Math.round(r.appetite*100)+" \xB7 stamina "+Math.round(r.stamina*100)+" \xB7 species "+e.sp.name.toLowerCase();var g=c("bs-r-sprite"),w=g.getContext("2d");w.imageSmoothingEnabled=!1,w.clearRect(0,0,g.width,g.height);var m=h,x=document.createElement("canvas");x.width=24,x.height=24,h=x.getContext("2d");var b={x:12,y:21,vis:2,hue:e.hue,sp:e.sp,dir:1,blink:1,pop:0,hurt:0,state:"idle",bob:0,tag:"",user:!0,sp:e.sp};Me(b),h=m,w.drawImage(x,0,0,24,24,0,0,g.width,g.height),ye="BIOSPHERE sample run \u2014 $"+a.tag+" hatched as "+e.name+" the "+e.sp.name+". Fate: "+i[t]+". "+p[t]+" ("+c("bs-r-stats").textContent+"). Sample ecosystem, built locally, nothing fetched. Not financial advice.",o.hidden=!1,c("bs-copy").textContent="copy summary",A||o.scrollIntoView({behavior:"smooth",block:"nearest"})}function Me(e){for(var t=e.sp.sprite,a=2,r=16,n=12,o=e.x-r/2,i=e.y-n,p=D(e.hue,70,58),g=D(e.hue,70,76),w=D(e.hue,70,38),m=0;m<t.length;m++)for(var x=0;x<t[m].length;x++){var b=t[m].charAt(x),C=o+(t[m].length-1-x)*a,u=i+m*a;b==="#"?l(C,u,a,a,p):b==="+"?l(C,u,a,a,g):b==="-"?l(C,u,a,a,w):b==="E"&&(l(C,u,a,a,"#fff"),l(C+1,u+1,1,1,d.base))}}function We(){for(var e=document.querySelectorAll("[data-species]"),t=0;t<e.length;t++){var a=e[t],r=J.filter(function(p){return p.id===a.getAttribute("data-species")})[0];if(r){var n=a.getContext("2d");n.imageSmoothingEnabled=!1;var o=document.createElement("canvas");o.width=24,o.height=24;var i=h;h=o.getContext("2d"),Me({x:12,y:20,sp:r,hue:Math.round((r.hue[0]+r.hue[1])/2)}),h=i,n.drawImage(o,0,0,24,24,0,0,a.width,a.height)}}}var U=null,P=!1;function X(e){if(P)try{U||(U=new(window.AudioContext||window.webkitAudioContext));var t=U.createOscillator(),a=U.createGain();t.type="square",t.frequency.value=e,a.gain.value=.03,a.gain.exponentialRampToValueAtTime(1e-4,U.currentTime+.12),t.connect(a),a.connect(U.destination),t.start(),t.stop(U.currentTime+.12)}catch(r){}}var Ve=S;S=function(e,t){Ve(e,t),t==="fed"?X(660):t==="bled"?X(220):t==="egg"&&X(880)};function qe(){var e=($.CA||"").trim(),t={"bs-buy":e?$.BUY||"https://pump.fun/coin/"+e:"","bs-chart":e?$.CHART||"https://gmgn.ai/sol/token/"+e:"","bs-x":($.X||"").trim()};Object.keys(t).forEach(function(o){var i=c(o);i&&(t[o]?(i.href=t[o],i.target="_blank",i.rel="noopener",i.removeAttribute("aria-disabled"),i.classList.remove("off")):(i.removeAttribute("href"),i.setAttribute("aria-disabled","true"),i.classList.add("off"),i.title="not live yet"))});var a=c("bs-ca");e&&(a.hidden=!1,c("bs-ca-text").textContent=e,c("bs-ca-copy").addEventListener("click",function(){we(e,c("bs-ca-copy"),"copied")}));var r=c("bs-clock");function n(){var o=new Date;r.textContent=String(o.getUTCHours()).padStart(2,"0")+":"+String(o.getUTCMinutes()).padStart(2,"0")+":"+String(o.getUTCSeconds()).padStart(2,"0")+" UTC"}n(),setInterval(n,1e3)}function we(e,t,a){var r=t.textContent;function n(i){t.textContent=i?a:"copy failed",setTimeout(function(){t.textContent=r},1600)}try{navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(e).then(function(){n(!0)},function(){o()}):o()}catch(i){o()}function o(){try{var i=document.createElement("textarea");i.value=e,i.setAttribute("readonly",""),i.style.position="fixed",i.style.left="-9999px",document.body.appendChild(i),i.select();var p=document.execCommand("copy");document.body.removeChild(i),n(p)}catch(g){n(!1)}}}function Ce(){E=c("bs-dome"),R=c("bs-log"),G=document.createElement("canvas"),G.width=L,G.height=I,h=G.getContext("2d"),Te(),me(),window.addEventListener("resize",me),E.addEventListener("pointermove",function(r){var n=E.getBoundingClientRect();O.x=(r.clientX-n.left)/n.width*L,O.y=(r.clientY-n.top)/n.height*I}),E.addEventListener("pointerleave",function(){O.x=null,O.y=null}),document.addEventListener("pointermove",function(r){var n=E.getBoundingClientRect();r.clientX<n.left-200||r.clientX>n.right+200||r.clientY<n.top-200||r.clientY>n.bottom+200||(O.x=(r.clientX-n.left)/n.width*L,O.y=(r.clientY-n.top)/n.height*I)}),document.addEventListener("visibilitychange",function(){Q=!document.hidden,Q?j():xe()}),"IntersectionObserver"in window&&new IntersectionObserver(function(r){Z=r[0].isIntersecting,Z?j():xe()},{threshold:.05}).observe(E);var e=c("bs-form");e.addEventListener("submit",function(r){r.preventDefault(),be(c("bs-input").value)});for(var t=document.querySelectorAll(".chip"),a=0;a<t.length;a++)t[a].addEventListener("click",function(){c("bs-input").value=this.getAttribute("data-v"),be(this.getAttribute("data-v"))});c("bs-copy").addEventListener("click",function(){we(ye,c("bs-copy"),"copied")}),c("bs-sound").addEventListener("click",function(){P=!P,this.setAttribute("aria-pressed",P?"true":"false"),this.textContent=P?"sound: on":"sound: off",P&&X(660)}),We(),qe(),A&&(c("bs-motion").hidden=!1,_()),j()}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",Ce):Ce()})();
+</script>
+</body>
+</html>
